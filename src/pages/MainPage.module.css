@@ -1,0 +1,133 @@
+.fullPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255,255,255,0.6);
+  padding-top: 100px;
+}
+
+.containerTop {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  flex-direction: column;
+  background-color: rgba(255,255,255,0.5);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.containerBottom {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  flex-direction: column;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.logo {
+  height: 100px;
+}
+
+.h4 {
+  margin-bottom: 15px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: darkslategray;
+  text-shadow: 2px 1px rgba(255, 188, 63, 0.75);
+}
+
+/* BUDDY BUTTON */
+.buddyBtn span {
+  background-color: #fdbe83;
+  border-radius: 0;
+  border-color: #fdbe83;
+}
+
+.buddyBtn span h6 {
+  font-weight: bold;
+  font-size: 0.4em;
+  margin-top: 18px;
+  transform: scaleY(1.2);
+  color: rgb(105, 98, 85);
+  -webkit-text-stroke-width: 0.3px;
+  /* -webkit-text-stroke-color: black; */
+  -webkit-text-stroke-color: rgb(105, 98, 85);
+  /* text-shadow: 2px 1px rgba(238, 99, 99, 0.75); */
+  text-shadow: 1px 1px rgb(241, 159, 5), 2px 2px rgb(226, 159, 5), 3px 3px rgb(226,149, 7);
+}
+
+.buddyBtn span::before {
+  background-color: #fdbe83;
+  border: transparent;
+}
+
+.buddyBtn span::after {
+  background-color: #fdbe83;
+  border: transparent;
+}
+
+.buddyAnimate {
+  position: relative;
+  animation: mymove 3s; 
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  transform: scale(1.25);
+}
+
+/* MENTOR BUTTON */
+.mentorBtn span {
+  background-color: #fdbe83;
+  border-color: #fdbe83;
+  border-radius: 0;
+}
+
+.mentorBtn span h6 {
+  font-weight: bold;
+  font-size: 0.35em;
+  margin-top: 20px;
+  margin-right: -5px;
+  transform: scaleY(1.4);
+  color: rgb(105, 98, 85);
+  -webkit-text-stroke-width: 0.3px;
+  /* -webkit-text-stroke-color: black; */
+  -webkit-text-stroke-color: rgb(105, 98, 85);
+  /* text-shadow: 2px 1px rgba(238, 99, 99, 0.75); */
+  text-shadow: -1px 1px rgb(241, 159, 5), -2px 2px rgb(241, 159, 5), -3px 3px rgb(226,149, 7);
+}
+
+.mentorBtn span::before {
+  /* background-color: #6ca3cf; */
+  background-color: #fdbe83;
+  border: transparent;
+}
+
+.mentorBtn span::after {
+  /* background-color: #6ca3cf; */
+  background-color: #fdbe83;
+  border: transparent;
+}
+
+.mentorAnimate {
+  position: relative;
+  animation: mymove2 3s; 
+  animation-fill-mode: forwards;
+  margin-top: 0px;
+  overflow: hidden;
+  transform: scale(1.25);
+}
+
+
+/* ANIMATIONS */
+/* FROM RIGHT TO LEFT */
+@keyframes mymove {
+  from {left: 200px; opacity: 0.2}
+  to {left: -45px; opacity: 0.9}
+}
+
+/* FROM LEFT TO RIGHT */
+@keyframes mymove2 {
+  from {right: 200px; opacity: 0.2}
+  to {right: -45px; opacity: 0.9}
+}
+

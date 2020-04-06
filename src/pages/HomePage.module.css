@@ -1,0 +1,83 @@
+.logo {
+  height: 250px;
+  margin-top: -70px;
+}
+
+.circle {
+  margin-top: 50px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 3px solid #fdbe83;
+  -webkit-animation: ping ease-in-out 2s infinite both;
+  animation: ping ease-in-out 2s infinite both;
+}
+
+.tapHere {
+  -webkit-animation: blink-2 2s infinite both;
+  animation: blink-2 2s infinite both;
+  color: rgb(94, 126, 126);
+  margin-top: -35px;
+}
+
+/* ANIMATIONS */
+/* CIRCLE ANIMATION */
+@-webkit-keyframes ping {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
+@keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+/* TAP TO START ANIMATION */
+@-webkit-keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}

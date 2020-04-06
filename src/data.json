@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Ridza",
+    "desc": "Developer",
+    "age": 18,
+    "image": "1.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 1,
+    "name": "Kumar Subramaniam",
+    "desc": "That's right, that was me 6 months ago!",
+    "age": 25,
+    "image": "2.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 2,
+    "name": "Emily Tan",
+    "desc": "Run like there is a hot guy in front of you and a creepy one behind you.",
+    "age": 25,
+    "image": "3.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 3,
+    "name": "Amanda Lee",
+    "desc": "Accountant by day 💵, Yogi by night 🧘🏻‍♀",
+    "age": 23,
+    "image": "4.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 4,
+    "name": "Ikan Bilis",
+    "desc": "Why doesn’t the fisherman go to the gym? He pulled a mussel.",
+    "age": 40,
+    "image": "5.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 5,
+    "name": "Firdaus Helmy",
+    "desc": "It amazes me how much exercise and extra fries sound alike.",
+    "age": 18,
+    "image": "6.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 6,
+    "name": "ChingChong DingDong",
+    "desc": "Instructors who say \"Last One\" are the reason why I have trust issues.",
+    "age": 32,
+    "image": "7.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  }
+]

@@ -1,0 +1,137 @@
+.everything {
+  color: darkslategray;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.allHexes {
+  transform: rotate(90deg);
+  margin-bottom: 20px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 150px;
+  margin: 0 auto;
+  transform: scale(0.7);
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 230px;
+  margin: -37px auto;
+  transform: scale(0.7);
+}
+
+.hex1 {
+  animation: pulse 1.5s;
+  animation-iteration-count: infinite;
+  animation-delay: .2s;
+}
+
+.hex2 {
+  animation: pulse 3s;
+  animation-iteration-count: infinite;
+  animation-delay: .8s;
+}
+
+.hex3 {
+  animation: pulse 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.hex4 {
+  animation: pulse 1.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+}
+
+
+.hex1 span { 
+  background-color: #f8e895;
+  border-radius: 0;
+  border-color: #f8e895;
+}
+
+.hex1 span::before { 
+  background-color: #f8e895;
+  border-radius: 0;
+  border-color: #f8e895
+}
+
+.hex1 span::after { 
+  background-color: #f8e895;
+  border-radius: 0;
+  border-color: #f8e895
+}
+
+.hex2 span { 
+  background-color: #ffdd8c;
+  border-radius: 0;
+  border-color: #ffdd8c
+}
+
+.hex2 span::before { 
+  background-color: #ffdd8c;
+  border-radius: 0;
+  border-color: #ffdd8c
+}
+
+.hex2 span::after { 
+  background-color: #ffdd8c;
+  border-radius: 0;
+  border-color: #ffdd8c
+}
+
+.hex3 span { 
+  background-color: #ffc883;
+  border-radius: 0;
+  border-color: #ffc883
+}
+
+.hex3 span::before { 
+  background-color: #ffc883;
+  border-radius: 0;
+  border-color: #ffc883
+}
+
+.hex3 span::after { 
+  background-color: #ffc883;
+  border-radius: 0;
+  border-color: #ffc883
+}
+
+.hex4 span { 
+  background-color: #f2dbb0;
+  border-radius: 0;
+  border-color: #f2dbb0
+}
+
+.hex4 span::before { 
+  background-color: #f2dbb0;
+  border-radius: 0;
+  border-color: #f2dbb0
+}
+
+.hex4 span::after { 
+  background-color: #f2dbb0;
+  border-radius: 0;
+  border-color: #f2dbb0
+}
+
+/* ANIMATIONS */
+@keyframes pulse{
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
